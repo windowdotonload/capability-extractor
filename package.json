@@ -1,0 +1,32 @@
+{
+  "name": "capability-extractor",
+  "version": "1.0.0",
+  "description": "Extract reusable coding capabilities into structured specs with one-click integration",
+  "type": "module",
+  "scripts": {
+    "dashboard": "tsx dashboard/server.ts",
+    "dashboard:start": "tsx dashboard/server.ts --start",
+    "dashboard:stop": "tsx dashboard/server.ts --stop",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.0.0",
+    "yaml": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "capability-extraction",
+    "knowledge-management",
+    "code-reuse",
+    "specification",
+    "integration"
+  ],
+  "author": "",
+  "license": "MIT"
+}

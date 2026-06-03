@@ -1,0 +1,67 @@
+# Spec Template — fill in the fields below
+name: ""
+version: "1.0.0"
+description: >
+  Brief summary of what this capability does.
+
+tags:
+  - example-tag
+
+extracted_from:
+  project: ""
+  path: ""
+  date: ""
+
+# When this capability applies
+when_to_use:
+  - Describe scenario where this capability is useful
+
+when_not_to_use:
+  - Describe scenario where this should NOT be used
+
+# Core mechanism (one paragraph)
+principle: >
+  How it works at a high level.
+
+# API / method definitions
+apis:
+  - name: exampleMethod
+    description: What this method does
+    type: utility
+    params:
+      - name: input
+        type: string
+        required: true
+        description: The input parameter
+    returns:
+      type: void
+      description: Nothing returned
+
+# Custom data types
+types:
+  ExampleOptions:
+    fieldName:
+      type: string
+      default: "default value"
+      description: What this field does
+
+# Implementation steps
+steps:
+  - step: 1
+    title: First Step
+    description: What to do in this step
+    code_ref: template.ts#L1-L10
+    api: exampleMethod
+    config: {}
+    caveat: Optional gotcha for this step
+
+# Dependencies
+dependencies:
+  runtime: []
+  dev: []
+  npm: []
+
+# Gotchas and edge cases
+caveats:
+  - title: Common Gotcha
+    description: What can go wrong and how to handle it

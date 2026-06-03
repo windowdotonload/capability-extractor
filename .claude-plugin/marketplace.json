@@ -1,0 +1,20 @@
+{
+  "name": "capability-extractor-dev",
+  "description": "Development marketplace for Capability Extractor plugin",
+  "owner": {
+    "name": "",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "capability-extractor",
+      "description": "Extract reusable capabilities from coding sessions into structured YAML specs with a local Hono dashboard",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "",
+        "email": ""
+      }
+    }
+  ]
+}

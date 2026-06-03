@@ -1,0 +1,17 @@
+{
+  "name": "capability-extractor",
+  "version": "1.0.0",
+  "description": "Extract reusable capabilities from coding sessions into structured YAML specs. Browse and one-click integrate with a local Hono dashboard.",
+  "author": {
+    "name": "Capability Extractor",
+    "email": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "capability-extraction",
+    "knowledge-management",
+    "code-reuse",
+    "specification",
+    "integration"
+  ]
+}
